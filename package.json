@@ -13,6 +13,7 @@
     "posttest": "node -e \"require('fs').unlinkSync('node_modules/md-code-stream')\" || true"
   },
   "dependencies": {
+    "async": "~0.9.0",
     "md-code-stream": "~0.1.0",
     "eval-stream": "~0.1.0"
   },
