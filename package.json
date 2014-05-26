@@ -1,0 +1,22 @@
+{
+  "name": "markdown-bdd",
+  "version": "0.0.1",
+  "description": "Use code blocks from markdown documents in your tests",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jpommerening/node-markdown-bdd.git"
+  },
+  "scripts": {
+    "pretest": "node -e \"require('fs').symlinkSync('..', 'node_modules/md-code-stream')\" || true",
+    "test": "node index.js README.md | node",
+    "posttest": "node -e \"require('fs').unlinkSync('node_modules/md-code-stream')\" || true"
+  },
+  "dependencies": {
+    "md-code-stream": "~0.1.0",
+    "eval-stream": "~0.1.0"
+  },
+  "devDependencies": {
+  }
+}
+
