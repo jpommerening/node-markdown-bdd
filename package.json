@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Use code blocks from markdown documents in your tests",
   "license": "MIT",
+  "keywords": [ "markdown", "code", "test", "bdd", "mocha" ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jpommerening/node-markdown-bdd.git"
