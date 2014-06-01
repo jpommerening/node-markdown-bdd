@@ -1,6 +1,6 @@
 {
   "name": "markdown-bdd",
-  "version": "0.0.1",
+  "version": "0.1.0-rc1",
   "description": "Use code blocks from markdown documents in your tests",
   "license": "MIT",
   "keywords": [ "markdown", "code", "test", "bdd", "mocha" ],
