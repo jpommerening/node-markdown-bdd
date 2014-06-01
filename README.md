@@ -11,7 +11,7 @@ module does, why not go ahead and use them as the specification?
 
 Ok, hang on, I'll explain later. First have a look at this example:
 
-```
+```js
 var markdownBdd = require('markdown-bdd');
 
 // declare what to use as input and what global variables to assume

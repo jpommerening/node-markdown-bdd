@@ -45,7 +45,6 @@ module.exports = function(file, context) {
     filter.push(name);
     section = filter.slice();
 
-
     describe(name, function () {
       before(function (done) {
         onReady(function() {
