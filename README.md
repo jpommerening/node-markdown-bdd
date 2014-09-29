@@ -1,6 +1,6 @@
-# markdown-mdd
+# markdown-bdd
 
-> Use code blocks from markdown documents in your tests
+> Use code blocks from markdown documents in your tests.
 
 Take this README file for example. There are multiple code blocks
 in here, that serve as usage examples for the user.
